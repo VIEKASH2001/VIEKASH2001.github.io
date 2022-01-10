@@ -1,0 +1,47 @@
+span.twae-pro-label {
+    color: red;
+    background: #f12945;
+    color: #fff;
+    padding: 4px;
+    margin: 6px;
+    font-size: 13px;
+    line-height: 2;
+}
+
+span.twae-pro-label:before {
+    content: "";
+    display: inline-block;
+    border: 6px solid transparent;
+    border-right-color: #f12945;
+    position: absolute;
+    left: initial;
+    margin-left: -15px;
+    top: 16%;
+}
+
+select[name="twae_style"] {
+    width: 52%;
+    float: right;
+}
+
+.twae_pro_options span.twae-pro-label:before {
+    top: 37%;
+}
+
+img.twae-screenshots {
+    border: 1px solid red;
+}
+
+select[name="twae_animation"] {
+    width: 50%;
+}
+
+.twae-pro-features ul {
+    list-style: disc;
+    margin: 2px 16px;
+}
+
+.twae-pro-features ul li {
+    list-style: disc;
+    margin-bottom: 6px;
+}
